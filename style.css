@@ -1,0 +1,431 @@
+*{
+    background-color: hsl(0, 0%, 98%);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    display:flex;
+    background:url(assets/bg.jpg);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-position: top;
+    position:relative;
+
+}
+.navbar{
+    background-color: #86d8ff;
+    height: 74px;
+    width:100%;
+    position: absolute;
+}
+.navbar-left{
+    background-color: #86d8ff;
+    height: 74px;
+    width: 200px;
+}
+.navbar-center{
+    background-color: #86d8ff;
+    height: 74px;
+    width: 630px;
+    margin-top: -74px;
+    margin-left: 354px;
+    position: absolute;
+    
+}
+.options{
+    background-color: #86d8ff;
+    padding-top: 37px;
+    border: 2px;
+    width: 850px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display:flex;
+    justify-content: space-between;
+}
+.options p{
+    background-color: transparent;
+}
+
+.navbar-right{
+    background-color: #86d8ff;
+    height: 35px;
+    width: 162px;
+    margin-left: 1341px;
+    margin-top: -38px;
+    position: absolute;
+}
+.navbar-right svg{
+    background-color: #86d8ff;
+}
+.profile{
+    background-color: #86d8ff;
+}
+.profile{
+    margin-top: -32px;
+    margin-left: 68px;
+}
+
+.banner{
+    background:transparent;
+    
+}
+.banner img{
+    margin-top: 236px;
+    width: 36vw;
+    margin-left: 74px;
+    background: transparent;
+    
+}
+
+.wide1{
+    /* background: yellowgreen; */
+    width:100%;
+    height:fit-content;
+    margin-top: 61px;
+    
+}
+.wide1 .title{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 141px;
+    width: 307px;
+    background: transparent;
+    cursor:pointer;
+    
+}
+.wide1 .title img{
+    width: 307px;
+    background: transparent;
+    cursor:pointer;
+}
+.wide1 .bg{
+    width: 1359px;
+    margin: 0 80px;
+    border-radius: 67px;
+    cursor:pointer;
+    overflow:hidden;
+}
+.wide1 .bg img{
+    width:100%;
+    transition: all 0.5s ease-in-out;
+}
+.wide1 .bg img:hover{
+    transform: scale(1.04);
+}
+
+.wide1 .text{
+    background:transparent;
+    margin-left: 141px;
+    position: absolute;
+    margin-top: 222px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-size: 42px;
+    width: 415px;
+    cursor:pointer;
+}
+.wide1 .shopnow{
+    background: transparent;
+    margin-left: 154px;
+    position: absolute;
+    margin-top: 387px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-size: 21px;
+    width: 415px;
+    cursor:pointer;
+}
+.wide1 .icon{
+    background: transparent;
+    margin-left: 251px;
+    position: absolute;
+    margin-top: 388px;
+    position: absolute;
+    font-size: 21px;
+    width: 415px;
+    cursor:pointer;
+}
+
+.wide1 .icon img{
+    background: transparent;
+    width: 23px;
+}
+
+.wide2{
+    /* background: #e50606; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 692px;
+    margin-bottom:1324px
+}
+.wide2  img{
+    width: 1359px;
+    margin: 0 80px;
+    border-radius: 67px;
+}
+.wide2 .title2{
+    position: absolute;
+    background: transparent;
+    margin-top: -103px;
+    margin-left: 131px;
+}
+.wide2 .title2 img{
+    margin-top: 263px;
+    background: transparent;
+    width: 349px;
+}
+.wide2 .text2{
+    position: absolute;
+    color: white;
+    margin-left: 202px;
+    margin-top: 226px;
+    background: transparent;
+    font-size: 41px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.wide2 .text3{
+    position: absolute;
+    color: white;
+    margin-left: 205px;
+    margin-top: 294px;
+    width: 474px;
+    background: transparent;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.wide2 .shopnow2{
+    color:white;
+    background: transparent;
+    margin-left: 205px;
+    margin-top: 416px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.wide2 .icon2{
+
+    width: 10px;
+}
+
+.discover{
+   
+    /* background: green; */
+    margin-top: 97px;
+}
+.discover .text{
+    margin-left: 82px;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ninet{
+    
+    background:transparent;
+    margin-right: 981px;
+    margin-left: 82px;
+    margin-top: 36px;
+
+}
+.ninet img{
+    border-radius: 32px
+
+}
+.ninet .text{
+    margin-top: -99px;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 46px;
+    color: white;
+    background: transparent;
+}
+.ninet .text1{
+    margin-top: -70px;
+    margin-left: 44px;
+    position: absolute;
+    color: white;
+    background: transparent;
+    font-size: 27px;
+}
+
+
+.sevenpro{
+    background: hsl(226, 96%, 37%);
+    margin-left: 561px;
+    margin-right: 503px;
+    margin-top: -343px;
+}
+.sevenpro img{
+    border-radius: 32px;
+}
+.sevenpro .text{
+    margin-top: 560px;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 27px;
+    margin-top: 612px;
+    color:white;
+    background-color: transparent;
+}
+.sevenpro .text1{
+    position: absolute;
+    margin-top: 638px;
+    margin-left: 27px;
+    color: white;
+    background: transparent;
+}
+.eleven{
+    background: hwb(0 0% 6%);
+    margin-top: -343px;
+    margin-right: 22px;
+    margin-left: 1041px;
+    padding-bottom: 142px;
+}
+.eleven img{
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+.eleven .text{
+    margin-top: 369px;
+    position: absolute;
+    margin-left: 9px;
+    font-size: 15px;
+
+}
+.eleven .text1{
+    margin-top: 414px;
+    position: absolute;
+    margin-left: 9px;
+    font-size: 28px;
+
+}
+.zsix{
+    background: hwb(297 2% 27%);
+    margin-left: 1042px;
+    margin-top: 358px;
+}
+.zsix img{
+    border-radius: 32px;
+}
+.zsix .text{
+    margin-left: 17px;
+    margin-top: 204px;
+    background:transparent;
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.zsix .text1{
+    margin-top: 222px;
+    margin-left: 20px;
+    color: white;
+    background: transparent;
+}
+
+.ninepro{
+    background:transparent;
+    margin-left: 84px;
+    margin-top: -129px;
+    margin-right: 976px;
+    padding-bottom: 154px;
+}
+.ninepro img{
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+.ninepro .text{
+    margin-left: 0px;
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 200;
+    background:transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ninepro .text1{
+    margin-left: 0px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 200;
+    background: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+.footer{
+    display:flex;
+    background-color: #242933;
+    width:100%;
+    height:auto;
+    background-size:cover;
+    background-position: top;
+    position:relative;
+    margin-top:66px;
+}
+.footer .list{
+   display:flex;
+   background: transparent;
+}
+.footer .list .left{
+    margin-left: 83px;
+    margin-top: 62px;
+    position: absolute;
+    width: 124px;
+    line-height: 27px;
+    background: transparent;
+}
+
+.footer .list  p{
+    color:rgba(183, 179, 179, 0.867);
+    background: transparent;
+    width: 219px;
+    margin-bottom: 12px;
+}
+.footer .list .h{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 13px;
+    font-weight:400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer .list .center{
+    margin-left: 240px;
+    margin-top: 62px;
+    position: absolute;
+    width: 124px;
+    line-height: 27px;
+    background: transparent;
+}
+
+
+.footer .list .right {
+    background:transparent;
+    margin-left: 390px;
+    margin-top: 62px;
+    position: absolute;
+    width: 124px;
+    line-height: 27px;
+    background: transparent;
+}
+
+.info{
+    background:transparent;
+    width: 290px;
+    height: 264px;
+    margin-left: 1198px;
+    margin-top: 54px;
+}
+.info img{
+    margin-left: -58px;
+    margin-top: -27px;
+    width: 355px;
+
+}
